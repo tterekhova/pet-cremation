@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* В styles.css */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f6f1ec; /* Пастельный коричневый */
+    color: #89582e; /* Цвет текста */
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700; /* Сделать заголовки жирными */
+  }
+  
+  a {
+    color: #89582E;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #5a3d23; /* Тёмно-коричневый цвет при наведении */
+  }
+  
