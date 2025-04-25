@@ -7,7 +7,7 @@ export default function Prices() {
           <p className="text-lg text-center mb-8 text-[#5a4430]">Цены зависят от веса питомца и типа кремации:</p>
 
           <div className="overflow-x-auto">
-            <table className="min-w-full bg-white rounded-lg shadow-md">
+            <table className="min-w-full bg-white border border-[#cbb8a0] rounded-lg shadow-md">
               <thead className="bg-[#e7d6c6]">
                 <tr>
                   <th className="px-6 py-3 text-left text-lg font-semibold text-[#4d3b28] border-b border-r border-[#cbb8a0] rounded-tl-lg">Вес животного</th>
